@@ -14,31 +14,67 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:rowCount="3"
-        android:columnCount="3">
+        android:columnCount="3"
+        android:layout_gravity="center">
 
         <Button
-            android:id="@+id/btn1"/>
+            android:id="@+id/btn1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="Check" />
+
         <Button
             android:id="@+id/btn2"
-            android:layout_marginStart="11dp"/>
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="11dp"
+            android:onClick="Check" />
+
         <Button
             android:id="@+id/btn3"
-            android:layout_marginStart="11dp"/>
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="11dp"
+            android:onClick="Check" />
+
         <Button
-            android:id="@+id/btn4"/>
+            android:id="@+id/btn4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="Check" />
+
         <Button
             android:id="@+id/btn5"
-            android:layout_marginStart="11dp"/>
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="11dp"
+            android:onClick="Check" />
+
         <Button
             android:id="@+id/btn6"
-            android:layout_marginStart="11dp"/>
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="11dp"
+            android:onClick="Check" />
+
         <Button
-            android:id="@+id/btn7"/>
+            android:id="@+id/btn7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="Check" />
+
         <Button
             android:id="@+id/btn8"
-            android:layout_marginStart="11dp"/>
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="11dp"
+            android:onClick="Check" />
+
         <Button
             android:id="@+id/btn9"
-            android:layout_marginStart="11dp"/>
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="11dp"
+            android:onClick="Check" />
     </GridLayout>
 </LinearLayout>
